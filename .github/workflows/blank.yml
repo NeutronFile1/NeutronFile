@@ -2,8 +2,8 @@ name: CI
 
 on: [push]
 
-jobs:
-  build:
+jobs: source repo
+  build: NeutronFile
 
     runs-on: ubuntu-latest
 
