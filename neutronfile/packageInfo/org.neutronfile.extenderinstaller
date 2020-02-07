@@ -1,0 +1,6 @@
+{   "name": "Extender: Reloaded",
+	"desc_short": "Deprecated: use ReProvision",
+	"compatitle": "iOS 9.0 +",
+	"changelog": "<strong>0.4-EOL</strong>",
+	"open": true,
+	}

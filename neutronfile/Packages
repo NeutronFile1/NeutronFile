@@ -1,0 +1,1173 @@
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.6-1E
+Filename: ./debfiles/org.neutronfile.cydown_7.0.6-1E_iphoneos-arm.deb
+Size: 4061974  
+MD5sum: 9c5ea8a22261b8cbf4b2ea3a205a0739
+SHA1: c04797d1ee2f5003bd1b691685fcf03c7e3ca1a0
+SHA256: c7550b3ab13f887cefc5002d339cfefbab255e5f8c29be89911ef6aa4b139ff7
+SHA512: 903d76a640de5c28c7b7c4df6862d81ff3ce89c00f0b77123bde887c89c813ccdcc201aebd7b4e8eed20801f4329ceac7d0c2c826e3d623d4e85427f8b3b1ea8
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.pn
+
+Package: org.neutronfile.onlinenotify
+Version: 3.1.3E
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.neutronfile.watusitools, com.rpetrich.rocketbootstrap, applist
+Architecture: iphoneos-arm
+Name: OnlineNotify
+Filename: ./debfiles/org.neutronfile.onlinenotify_3.1.3E_iphoneos-arm.deb
+Size: 671372  
+MD5sum: 319d92db4b25584f1fb14c81f50431f9
+SHA1: e008b51bf699b1a2693a953f2d069df93e85dd7d
+SHA256: 30969ddca4b98e8da47f42555e5f8fae72a385238ee97326b119329e04cd1e95
+SHA512: 830693124756d78a834731451affec428580213a7867f4ddb32552ec8e071780b7ba48aaa4363db1e4ed934026082dc36e9c4f749e6ed2da1890490cc0f84eab
+Author: Fouad Raheb <support@fouadraheb.com>
+Sponsor: NeutronFile.org <http://apt.neutronfile.com>
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.onlinenotify
+Icon: file:///Library/PreferenceBundles/OnlineNotifyPrefs.bundle/logo@2x.png
+
+Package: org.neutronfile.watusi2forwhatsapp
+Version: 1.2.31E
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.neutronfile.watusitools, com.rpetrich.rocketbootstrap, applist
+Conflicts: com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
+Architecture: iphoneos-arm
+Name: Watusi 2 for WhatsApp
+Filename: ./debfiles/org.neutronfile.watusi2forwhatsapp_1.2.31E_iphoneos-arm.deb
+Size: 4788462  
+MD5sum: 9d65bb3724028919217d0ad0616b3958
+SHA1: de394bc0a19f3f9d12259e0953fe6e0b0894738b
+SHA256: 2a34371c12ab11b580b25d7f274f6b0148ebfb64a995869d83646734462fe94e
+SHA512: c41fea7af9d9684f90524607312efb2067e8ab32f5f8da4195f5e69a96be738936dbaea11a033ffd5041dd7df57bb21000399fac4c55f61071b1fa08e295e0d3
+Author: Fouad Raheb <support@fouadraheb.com>
+Sponsor: NeutronFile.org <http://apt.neutronfile.com>
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.watusi2forwhatsapp
+Icon: file:///Library/Application Support/Watusi/FRAssets.bundle/Watusi@3x.png
+
+Package: org.neutronfile.stalky
+Version: 4.1.2E
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.neutronfile.watusitools, com.rpetrich.rocketbootstrap, applist
+Conflicts: com.f0u4d.stalkybeta
+Enhances: WhatsApp
+Architecture: iphoneos-arm
+Name: Stalky
+Filename: ./debfiles/org.neutronfile.stalky_4.1.2E_iphoneos-arm.deb
+Size: 5260782  
+MD5sum: b320fa030ecb074c49fd92350223a475
+SHA1: 6288035a9f69e0df84deaf51dad411d5b6332476
+SHA256: 71f34003593b3286441c7ea7ae0038c4e008cd22ee15995882b6b587429dc9f8
+SHA512: 6f24dc3ddfd9421f82c28fcb53892b417fba2272b1b1c99404505b52568369bbfdc4d2db3b24ff9af03f02035189b67dbfb2408c9684a4952c63d5366ace5403
+Author: Fouad Raheb <support@fouadraheb.com>
+Sponsor: NeutronFile.org <http://apt.neutronfile.com>
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.stalky
+
+Package: org.neutronfile.watusitools
+Version: 2.1.13E
+Section: Development
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: firmware (>= 8.0), darwintools
+Conflicts: org.neutronfile.watusi (<< 1.1.5), repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.neutronfile.onlinenotify, net.cydia00.onlinenotify22, com.pulandres.watusi2, com.pulandres.watools, org.neutronfile.watusitools, cydia.kiiimo.org.watusitools
+Architecture: iphoneos-arm
+Name: WatusiTools Cracked
+Filename: ./debfiles/org.neutronfile.watusitools_2.1.13E_iphoneos-arm.deb
+Size: 13535228  
+MD5sum: d25e89e9519915167b8e9e4fc463b603
+SHA1: 09409bbeabb30e385dc1dc8db10750293665b278
+SHA256: 3f7c8532741a98be6d52fc4b79fd03c18f97e24a9696b1e2b2b2ca71edd70627
+SHA512: 11b15992dbe025810ab096d16af6870d3690b6b56cad7926063bb9e174a4701607365434e894c3151d6f3d811681ca17c1615d047bc091ae4a01b3606e9cf9b7
+Author: Fouad Raheb
+Sponsor: NeutronFile.org <http://apt.neutronfile.com>
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.watusitools
+
+Package: org.neutronfile.vivavideovip 
+Name: VivaVideo VIP
+Filename: ./debfiles/org.neutronfile.vivavideovip_7.0.4_iphoneos-arm.deb
+Size: 88722  
+MD5sum: fead5d15df6c1ec74d7a879cc35a712e
+SHA1: b6c9e56b39334e95e060a2c88a77637a5540dc25
+SHA256: f2dc7f2767a7b621be4c40a52319ef4ddb172565c0e88a55cda96b4be70aa870
+SHA512: e633f5686aa4e5cfc1674c23c6bc04f980133fd9bf3f7e2c0bdca346bdeb5ec42275cac4f75882c942635311b22aa2103d0246a2d6a7b99c19976934c4b8521c
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: VivaVideo VIP for Free!
+Maintainer: NeutronFile
+Author: pxcex
+Section: Apps
+Version: 7.0.4
+Homepage: https://www.neutronfile.org/ 
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.vivavideovip
+
+Package: org.neutronfile.hotspotshildhack
+Name: Hotspot Shild Hack
+Filename: ./debfiles/org.neutronfile.hotspotshildhack_0.0.1_iphoneos-arm.deb
+Size: 122286  
+MD5sum: 3J4u4wbwseKXExKC8EdvABkLwXn1gmFdfs
+SHA1: 6af7f21534d01154d477450a3fd26255ce49ac18
+SHA256: fa280f8ce53d76e37b88d4047972d98d16d2e9ec030ae1b301ac3a7e06b2dc3a
+SHA512: 558bce7b4c5e8d92b0b4f679e11380519488be7afca5056d6e324ad1b0cf7b00c7892804558b42937a495407aa118db66e5211295e0d88fe60a0489e6ea96b51
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Premium lifetime.
+Maintainer: NeutronFile
+Author: pxcex
+Section: Apps
+Version: 0.0.2
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.hotspotshildhack
+
+Package: org.neutronfile.filzaplus
+Version: 1.0
+Section: Cracked
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, org.neutronfile.filza
+Conflicts: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Name: FilzaPlus
+Filename: ./debfiles/org.neutronfile.filzaplus_1.0_iphoneos-arm.deb
+Size: 293708  
+MD5sum: b500aacd3c3c3cd4c4d82a3350da83d1
+SHA1: 6070b653a39c484d5617f8070f1d6083cbbe12fa
+SHA256: 5bc1518fff0f060934d9f89c2b74eabe46f845a41342bef8a57649b75bef858a
+SHA512: f49c050add227b750d2888241dfc22a0c462c30171de9d1bce79a96530c4ed13901ea9c218f7a731d1648ae593014a4b4bc6bde48be7be128f4ba98cd711ad26
+Author: Skitty
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.filzaplus
+Sponsor: NeutronFile.org <http://apt.neutronfile.com>
+Icon: https://i.imgur.com/FZ6f9p7.jpg
+
+Package: org.neutronfile.zebra
+Name: Zebra
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.zebra_1.0.5_iphoneos-arm.deb
+MD5sum: 1e0a91ff195c6c3e0cfcde28e1fea34a
+SHA1: f4f309104b19fb2464898fcc877999a176cd2937
+SHA256: c6f5c38069334bbf19cc488792ac0b5265e57186ea2ea2eaea70db6b1456d7bb
+SHA512: 39b07585b61c8ad024db00f1978e33fb7b6ebc0cd40b82d35d5c5fe1cc1579d9f65b1d905c54db8e845388f2b12c5075082f622a549550675b0235cd776fede7
+Size: 20356500
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.Zebra
+Version: 1.0.6
+
+Package: org.neutronfile.icleanerprocracked
+Name: iCleaner Pro Cracked
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Version: 7.8.0E
+Filename: ./debfiles/org.neutronfile.icleanerprocracked_7.8.0E_iphoneos-arm.deb
+Size: 7700612
+MD5sum: 730c88f1ee56b0af648c7cbaf7bf7897
+SHA1: 8e9345d7aee8fe3b4edca0ced37da5e6cc64a5c1
+SHA256: 6cb27f41f2cfea9e173c46e0f296a2d4a849360fb7e3ac0c949c3499371cacdb
+SHA512: 47bd2baafefd8ef216b220f910e715848053bcd68e0c01d2f0497dfcfc1bf52f20781143a0356fecc038d9875a3397d13c340421dd49d17a5118dfc5df2fbc23
+Architecture: iphoneos-arm
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.icprocracked
+Section: Cracked
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: org.neutronfile.installer
+Name: Installer
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.installer_5.0.1_iphoneos-arm.deb
+MD5sum: 69f8131d08c5d7ecd7871419cd6def5f
+SHA1: 8b0b5ed3f8330d3e7e4b6e1dafbaa1fe51a1d3f3
+SHA256: 1928a43c30cac4744f227bd8fa84b7698c60deea3decc06e27d26e5466679379
+SHA512: 646fcf99847b050a871b54eadea644b3e3c5e6c3a4b483357db1e5dfea1b6fe36dfcbd3a5bdd2e81e9657d785d9f0a00742d3000b9d3d418d602f683efbe0038
+Size: 28238150
+Depends: dpkg, uikittools, firmware (>= 10.0)
+Description: A Useful Package Manager
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.apptapp
+Version: 5.0.1
+
+Package: org.neutronfile.zebra
+Name: Zebra
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.zebra_1.0.6_iphoneos-arm.deb
+MD5sum: b94e6a9d49b55552b919c518f9e61504
+SHA1: 3bae6936453d08cc113de62647363cd3a3dc3762
+SHA256: cd74e99c620368d519afdc764ebed22224d3db1373b0cea11f20bc550bcb38a8
+SHA512: 2651f45ac0c0a628b69fd62ac1d559f03a5b68d2327dd7956c3aaeb5eb740d37a353322448c8ba15179856b771c1df87f7616700f65056a97ab8b406c07805e7
+Size: 20356510
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.Zebra
+Version: 1.0.6
+
+Package: org.neutronfile.zebra
+Name: Zebra
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.zebra_1.0.5_iphoneos-arm.deb
+MD5sum: 4c03deaf13b3f6872f7bc2d4cc99d330
+SHA1: 15bdb178fd072b876dfb3de2833b52ffefeedfa6
+SHA256: 1daf754d2a0d193c1cc2b7288ed558822a6d7ee3e3081732e3accb00a32d7eca
+SHA512: 5436944b6e2a858041b5608887aa29bd60f6bbdfeeed3df3f4706c8147c6965d5999a00fa6faf50a1854751282eba37ce37e80cc3ce7bbf007ad69e0eddfd0e1
+Size: 20351382
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.Zebra
+Version: 1.0.5
+
+Package: org.neutronfile.zebra
+Name: Zebra
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.zebra_1.0.4_iphoneos-arm.deb
+MD5sum: 856d35091b53a33c6d759e3e7f5facbe
+SHA1: 751496ccacc9b7ca65390a9f321c7baa6848b805
+SHA256: c622ad471a972bebf115cf0098efac2903d8327283f6bcc995f85e3bfbc54756
+SHA512: e2243687daa5de616fa41aa03fe0b45fa8c411800077f1089eab1d039e8c7dce204ed973050263e0683421e78a481ce3fc31fe1e28b73079bc042422fd8ecca3
+Size: 20352566
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.Zebra
+Version: 1.0.4
+
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.6-1
+Filename: ./debfiles/org.neutronfile.cydown_7.0.6-1_iphoneos-arm.deb
+Size: 4061432  
+MD5sum: 201ddb0d6f12d507dc11dfc6b4460068
+SHA1: 1f9d0ff2299974a72f6784c567cdc02655f2a585
+SHA256: 02a530537ae7cb8e62b95ac2b044886857479c16ca72b7d733eb8f1dd2aee07e
+SHA512: aa5cbd0564e1d94fefe46a32344b507fa47a23b682c10b56e5c200e3f2a0881ef7dbabd1818cee6f65e58897712276774cf554d1e73268ffb47cda737522709b
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.pn
+
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.5-1
+Filename: ./debfiles/org.neutronfile.cydown_7.0.5-1_iphoneos-arm.deb
+Size: 3991242 
+MD5sum: 142050a09824912185cae1625cb5ccd7
+SHA1: 1a805db1fe3632bb883a4ce613ccbf10538c8099
+SHA256: 65ad0357a3cc3fbbd2394b5bb2f8c3842e3d1c50db265f830bb7a75220878ada
+SHA512: 3a2cb3a937a868705dd9f1ea94845c534be282efa4370edf3d9c63a47d71dd551a471eb5ba0ca3c2148854effc8691c7a403d6952c15ada91191f0cf375844f7
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.4-1
+Filename: ./debfiles/org.neutronfile.cydown_7.0.4-1_iphoneos-arm.deb
+Size: 3806358
+MD5sum: db196391021bf60959cf510bb2269131
+SHA1: c671966fb422b0608c362d9aa185a88e06cfd2c4
+SHA256: 976d6969aad893be39ae2fb657ebf900ab06084546f1922ffa9111f55c783941
+SHA512: 02d0606b56605acdc436850054667044d3080049fb2260f2674fd4bfe5df95b459fb862bb552218018c8b6bfe0d0c7a8d314d62203ca1e37aae8438765a9b228
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.3-1
+Filename: ./debfiles/org.neutronfile.cydown_7.0.3-1_iphoneos-arm.deb
+Size: 3694128 
+MD5sum: c3b8dbc6559b6f84983dd531cca3ed3c
+SHA1: 75e3288b84370f047a79877fe40003801c28976f
+SHA256: 0fb3fd56a524c1af1ffdf0a905a3a709ccbf60860eb0fdd8fdafd254906f027a
+SHA512: 8cc86ccab1435a873fd40ab3d11cc6ae45fc715530445c55ea1943a1053ece2b46968c6285963b394b4a13f08877e05041e2d49000d59007e306fb2dac390437
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.2-1
+Filename: ./debfiles/org.neutronfile.cydown_7.0.2-1_iphoneos-arm.deb
+Size: 3623886 
+MD5sum: 3d79db121d165d406939a3e4b00f3232
+SHA1: e264929affcb3a0afd267216acccc51c50dd35b0
+SHA256: 95f5fbe28e283cee12b45c3e504a223eaa6bf99be05ffe3e71318c21024f314d
+SHA512: 6793fde77a5ee2eac8b369a67942ee93e59daa7608bbe2a466966325f56a6eed934b88a0f9fd024164367c5c8ed7fe2d4956648f7f17091c97f9ee886c91fe1f
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: org.neutronfile.cydown
+Name: CyDown
+Version: 7.0.1-1
+Filename: ./debfiles/org.neutronfile.cydown_7.0.1-1_iphoneos-arm.deb
+Size: 3549472 
+MD5sum: 1ea4a178bdc86ef3dbdd80779042f520
+SHA1: 7c7a2d5e7bf922e05a96adbf692b9194b6e53d63
+SHA256: 3c525983858d98387af86280519df4caf5ac2e5d922684079c5f5c2aae5fcb33
+SHA512: 3e250329acfb052d7eed52470d262644683420c21d6218178f06c61fc0d55f46fcd5b83952975bdc8672977fda23e56ccacf74f5369f16f3fb2d86a2169c46eb
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Author: julioverne
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: org.neutronfile.icone
+Name: NeutronFile Icons
+Version: 1.5
+Filename: ./debfiles/org.neutronfile.icone_1.5_iphoneos-arm.deb
+Size: 56868 
+MD5sum: 7b9bc64610547ea3637b87770c77752c
+SHA1: 362387dfa7c651330876c4272a09624b605a21d9
+SHA256: a3a149185c444b17c490ac0298ccbe47fce955e1e3cc400332f3d4f938ea500a
+SHA512: 787b2b26beb4502d92f5d0cd9c1d80ef3042119d784681fa3c830cd28d6cb9d7b6115ff71460ab4eb40e10d450d55c3c1fcda752d15985c5fc6e4f27f39bbf85
+Architecture: iphoneos-arm
+Description: Officials NeutronFile Icons
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.icone
+Author: El Hizazi
+Section: System
+Maintainer: Neutronfile
+Maintainer: elhizazi
+Essential: yes
+
+Package: org.neutronfile.icone
+Name: NeutronFile Icons
+Version: 1.4
+Filename: ./debfiles/org.neutronfile.icone_1.4_iphoneos-arm.deb
+Size: 28852 
+MD5sum: 62b50e2ae49c1959685753f3606dd2c3
+SHA1: a33ca691b1ca91c51f2da65929fcdc2af9a42f52
+SHA256: b9542a007a2ea33b464e6e1553822c4fc1ff8e5be4c8aafc7fb74ab47647c184
+SHA512: 3d16c3dfd3d7c5944369ddbcf4bd71711c299d018836e34717ec98556a9fb87e95c4447abd08024a7c64671dd0187ba0c28d265c57d5f2fa6c0d0fd09a712135
+Architecture: iphoneos-arm
+Description: Officials NeutronFile Icons
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.icone
+Author: Neutronfile
+Section: System
+Maintainer: Neutronfile
+Maintainer: elhizazi
+Essential: yes
+
+Package: org.neutronfile.icone
+Name: NeutronFile Icons
+Version: 1.3
+Filename: ./debfiles/org.neutronfile.icone_1.3_iphoneos-arm.deb
+Size: 25832 
+MD5sum: dbb0d98cd68563a04a7d5c246c390b84
+SHA1: eb139fb1e1ce06373f062e315659eb34b7e1f0c6
+SHA256: 94b79bf0f1ec7d719856769e53d2e8518cdb392d7ef2e4fca5cfa3e0a0401710
+SHA512: 79ddbd58f17333b9894faa2b6361298fe6fb96278b3b4ac76a8bbc14882649cd29537480e7e4b1a033098090600cb64b5c7aeaab79b11b032a79994ca586b8a0
+Architecture: iphoneos-arm
+Description: Officials NeutronFile Icons
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.icone
+Author: Neutronfile
+Section: System
+Maintainer: Neutronfile
+Maintainer: elhizazi
+Essential: yes
+
+Package: org.neutronfile.icone
+Name: NeutronFile Icons
+Version: 1.2
+Filename: ./debfiles/org.neutronfile.icone_1.2_iphoneos-arm.deb
+Size: 115622 
+MD5sum: cf33fda7b3f6cad3a902d98461efa8c0
+SHA1: 05a3bf39138904e0b8f39dfe7f99485aeb88dda3
+SHA256: b950dbb8f28653a1d9fa57a250a4ad326bcae064e9be17af87226016f3c57fd0
+SHA512: cc980feb76f58ce136e7736c94f91f25c856dedbc6b4caf0fe978b0fdc15e1f49a985784ff22237ebb32d78ed65f50bdad001e2a696648210511defaedc273af
+Architecture: iphoneos-arm
+Description: Officials NeutronFile Icons
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.icone
+Author: Neutronfile
+Section: System
+Maintainer: Neutronfile
+Maintainer: elhizazi
+Essential: yes
+
+Package: org.neutronfile.debrepack
+Name: deb Repack
+Author: julioverne
+Version: 1.0-1a
+Depends: dpkg
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.debrepack_1.0-1a_iphoneos-arm.deb
+Size: 1174
+MD5sum: 95258023a999071def4d65d8c5cfc310
+SHA1: 0cbfee4bea8ed2d488007cf34c7cc544f92f7013
+SHA256: 105162ec02794e2a9599d4b4280c7363485bc5d3f5935c46806506f8cce4f656
+SHA512: fa4668bcc9049676a1164d32f6b054fdb61804db4143eb5d03cd0d3eaf85c104a156515832e85d89617ea9045f31b185b388ea0d96a5bbe7a9c3b0cf4114a018
+Description: bash command to repack deb file Easy Repack deb files. type debextract/debmount on terminal to unmount/mount deb file on /var/mobile/deb/
+Homepage: https://www.neutronfile.org/
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Section: Development
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.debrepack
+
+Package: org.neutronfile.redeb
+Name: redeb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.redeb_1.0.3_iphoneos-arm.deb
+Size: 3542
+MD5sum: 5b9705ee3df643f23b8f5e71d3e56918
+SHA1: 8155ebc2ec89f30c6e60dc0f9d297f0b9849b666
+SHA256: 32e84555b2e03caf7d5c37bffd6ef51e27ed728b80d4f00f89dc87b15d10b3ea
+SHA512: 7dfc01599044012fb1b7e73adc66f75c846e9ffd86fb5032d66e1b3d8afb9a1f914a51f66677f56952dc47d7d6bfd6ea927e31df96e34e66cb1b68da98645573
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :)))
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.redeb
+Author: T.Herak
+Section: Development
+Maintainer: NeutronFile
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+
+Package: org.neutronfile.quran
+Name: Quran
+Version: 3.8
+Filename: ./debfiles/org.neutronfile.quran_3.8_iphoneos-arm.deb
+Size: 76141830
+MD5sum: 12b04a3bb1cf69950795e64ceaa65cc4
+SHA1: 67884f5d8c0b099110ce8028cc78c6281490aced
+SHA256: 070f21e3fc64595735991eb3e638b25ab03f90b971e5769303163199bd195648
+SHA512: 9e27469d3a9cf693471401d9e6ec81a4ae9483933219bcf5560a0b3e9399edbdafb32b3c1a41f391d22ea04f0a370dfc394410c015a2476462edd4408a535031
+Architecture: iphoneos-arm
+Description: lire et apprendre Le coran
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.quran
+Author: mohadu31
+Section: Islamic
+Maintainer: Neutronfile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.cracktool3
+Name: CrackTool3 (iOS 11)
+Version: 3.0~beta11
+Filename: ./debfiles/org.neutronfile.cracktool3_3.0~beta11_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Size: 165270
+MD5sum: 2cc7a3ab16877db385c6a91895f3f1b0
+SHA1: 694f6031f17021cd9b61f2177298206afccb706e
+SHA256: d020bdfddbc0f4d390a53853d940f03fe644e69123432c281260d5625852e58a
+SHA512: 92048b50e883e2e2afc028a16eccf1285e45992d258308cd13e730be1b86134c5a71d3d6efbc7f382941b1e6435f318c0db71eee550726ffc39aa37335872a3f
+Description: Crack Tweaks On 1 Touch. arm64. Any Issue Try Reinstall and/or Run CT3 In Safe Mode.
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cracktool3
+Author: julioverne
+Section: Cracked
+Maintainer: NeutronFile
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+
+Package: org.neutronfile.cracktool4
+Name: CrackTool4 (iOS 12)
+Version: 4.0~beta9c
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.cracktool4_4.0~beta9c_iphoneos-arm.deb
+Size: 516630
+MD5sum: b612276f9d799ac116a2185dadfebe64
+SHA1: 2f35587e60784729c56fdb06b539bc7a00069620
+SHA256: 3cc6c37ffa76db305cbb8201b928c0543bc22173c2596286b5cfa7a3c52c4cfc
+SHA512: c22ab750aa23b748761e0eab869b28c1790d8a5eaf1ec61a1dadf919c9b1e6b7572a06d4e1455e71e0c69ca9fc6e29bdee9a9a4b8a471dbf8a7eafae0d5f7fcd
+Description: Crack Tweaks on one click
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.cracktool4
+Author: julioverne
+Section: Cracked
+Maintainer: NeutronFile
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+
+Package: org.neutronfile.acesierrax
+Name: Ace Sierra X
+Version: 1.0
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.acesierrax_1.0_iphoneos-arm.deb
+Size: 15341890
+MD5sum: 23521c1d928788290fda8af38dc5decb
+SHA1: 830fc381a455ccee0d55626360b7ebe062137f53
+SHA256: 5bd49a64e84f5b772b274ad307e6ff6a89ebfee271f85b925ca0b9829fed0d0b
+SHA512: fc79adecf830854b117177503143d07e32b96391e8cb1160dfb8561e88218ab7a95de87c2d8ab4bc338925c6f4fc8906c50ea67923c948c6f94f082ce8b3ac44
+Depends: org.neutronfile.anemone
+Description: Bring macOS Sierra experience to your iPhone 
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: anasgaberali <e.anasgaber@ymail.com>
+Sponsor: NeutronFile <https://apt.neutronfile.org/>
+Section: Themes (SpringBoard)
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.acesierrax
+
+Name: Anemone
+Package: org.neutronfile.anemone
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Version: 2.1.8-2
+Architecture: iphoneos-arm
+Filename: ./debfiles/org.neutronfile.anemone_2.1.8-2_iphoneos-arm.deb
+Size: 4038224
+MD5sum: d04a8e9b077de89ac1c8fc6a3901d64c
+SHA1: 153c4d6ea58659a6b00169762aa02c914ad273f3
+SHA256: 90e69caf92133921d968d587a1022790490aa9efa82e71e23f865af09100e03d
+SHA512: f49c9e1bc571d01b59a9723203c372a891d80ceeb82b32bec8a536f82c68235472af88256aa4bad0b07c0718f04fda75ef6242fd73d0bd3683e05185683b87e0
+Description: An awesome theme manager!
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.anemone
+Sponsor: NeutronFile <http://apt.neutronfile.com>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Author: AnemoneTeam <anemonetheming@gmail.com>
+dev: anemonetheming
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Icon: file:///Applications/Anemone.app/icon.png
+
+Package: org.neutronfile.adblock
+Architecture: iphoneos-arm
+Version: 0.2~beta1
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: mobilesubstrate
+Filename: ./debfiles/org.neutronfile.adblock_0.2~beta1_iphoneos-arm.deb
+Size: 10030
+MD5sum: 828fd4f7f1a6371f69dd9db5f25d7cd9
+SHA1: a54b07d5a2b7339c28d190e5c5d31b1994ac036d
+SHA256: 62ac9c50b21930c4773040f04208d4cdf01f97e9b1df170aaaedbc5f0b2acf47
+SHA512: 7f5189222f10f4b637d67865771710d9e5c12ef46eaa41fbd07eb2ef41c3a9bc4ea1eb95c3482bae0e70b9c9c346a0914d0b33185bd74a03171f42a1b5c7e156
+Homepage: https://www.neutronfile.org/
+Description: ADs Blocker for Apps.. Note: may not load page or app crash.
+Name: ADs Blocker
+Author: julioverne, NeutronFileile
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.adblock
+
+Package: org.neutronfile.jbme10xwebclip
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Utilities
+Maintainer: NeutronFile
+Filename: ./debfiles/org.neutronfile.jbme10xwebclip_0.1_iphoneos-arm.deb
+Size: 1191718
+MD5sum: 2e03814ebb49a7502726f172a502ddea
+SHA1: 7ce3b302f88f6231236c54fbca7d6eab1327dd9a
+SHA256: 9d2a6ad578b148e8ed984e6e7a704f05521d882da30838dc634a51578572a3cc
+SHA512: b26a4c85dc4602ec8db1845be13cdb40ab8d819b2a47230ca63d48114f63a140fe9ca568dd66e18da64c8528047f6e3e741ed6a56965df70ceeea75e01b6445c
+Homepage: https://www.neutronfile.org/
+Description: Re-Active iOS 10.x Jailbreak Offline, Install totally-not.spyware.lol 10.x Webclip Profile 100% Offline.
+Name: JBMe 10.x Webclip
+Author: julioverne, NeutronFile
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.jbme10xwebclip
+
+Package: org.neutronfile.jailprotect
+Architecture: iphoneos-arm
+Version: 0.0~beta4a
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/org.neutronfile.jailprotect_0.0~beta4a_iphoneos-arm.deb
+Size: 53174
+MD5sum: 95d8471adfb22a4fa965f84d924746c9
+SHA1: be34314e5ee41f923f6be6bf25cdf14ca42d70fb
+SHA256: 6e74df9e13f7ff9dd09e58076d4b4c8c76cb8c6aa3bb580a64ad3e0d8f2d917c
+SHA512: d3a9bc0d7512c22e92483348373c634819c33806b88b159d5cca55d647eeb15003cc89136d9f09efb4d57fb1fda12ee5f0775266add52a6e2dd92d2656a566fb
+Homepage: https://www.neutronfile.org/
+Description: No Substrate Mode Alternative
+Name: JailProtect
+Author: julioverne, NeutronFile
+Icon: file:///Library/PreferenceBundles/JailProtectSettings.bundle/icon@2x.png
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.jailprotect
+
+Package: org.neutronfile.reprovision
+Name: ReProvision
+Version: 0.5~experimental8
+Filename: ./debfiles/org.neutronfile.reprovision_0.5~experimental8_iphoneos-arm.deb
+Size: 14258294
+MD5sum: 5d2f8125a8280ff2111118db4fee2ec6
+SHA1: 2e43d2ec10d7dd3599b21d288202e0b992f36dd8
+SHA256: 0b3843516a693a3cba10a946000ce80dc05dfeb81c6a89870f6083a9487eb72b
+SHA512: e3eb90bd74ef4ebab8d05ed7bb1df6110f24d7a61b07a0929cb05af4a91938fcc016220319fb9ebde4931e04c9b435ca5ca245d5af3291369e03d18584bd6c3f
+Description: Re-sign applications on your device
+Section: System
+Depends: firmware (>= 9.0)
+Priority: optional
+Replaces: org.neutronfile.extenderinstaller
+Provides: org.neutronfile.extenderinstaller
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.com
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.reprovision
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+
+Package: org.neutronfile.reprovision
+Name: ReProvision
+Version: 0.5.1~EOL
+Filename: ./debfiles/org.neutronfile.reprovision_0.5.1~EOL_iphoneos-arm.deb
+Size: 14388020
+MD5sum: a5b6381319897c2b7dcb6fabaccca3a9
+SHA1: 5209d29d22dc1714979afdfe33bc2cde687a19b1
+SHA256: 8b222a3345e95a4b326a966118d8b44bd9462807bac05cab7877f99323db435d
+SHA512: 53535b2712fe96b0bda675ad637231385d3dc98f88b30c4ff02d4911cdb772f3f63e5253e271d56be267fb12ed9587717fe710a42d27055eba5c3aa18fc750ca
+Description: Re-sign applications on your device
+Section: System
+Depends: firmware (>= 9.0)
+Priority: optional
+Replaces: org.neutronfile.extenderinstaller
+Provides: org.neutronfile.extenderinstaller
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.org
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.reprovision
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+
+Package: org.neutronfile.extenderinstaller
+Name: Extender: Reloaded
+Version: 0.4-EOL
+Filename: ./debfiles/org.neutronfile.extender-installer_0.4-EOL_iphoneos-arm.deb
+Size: 718
+MD5sum: 667cb932d5220a1f168deb6219ef81d7
+SHA1: f52261178a45dbda877e42c7ae685b5118224190
+SHA256: c792449dfad95623df88bc91f4286a9a99a6cb55545da43bab3119d5f1b8953a
+SHA512: f1e115aec4e6646c30bd92b51a3bd06a3509cc19a79fa878c8d2db3ce1ea28160fddfa98900aac348b16c2f2cf9b1ee4af9f3db5d02bd9a44f33bae4770e5ea9
+Description: Deprecated: use ReProvision
+Section: System
+Depends: org.neutronfile.reprovision
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.org
+Depiction: https://apt.neutronfile.org/depictions.html?id=org.neutronfile.extenderinstaller
+
+
+Package: org.neutronfile.safariplus
+Name: Safari Plus
+Version: 1.6.8-3
+Filename: ./debfiles/org.neutronfile.safariplus_1.6.8-3_iphoneos-arm.deb
+Size: 770398
+MD5sum: f2a88216c293806bd3c8236da8419aa5
+SHA1: a019f5ad0a708634bdc6f5f92de4deea25018216
+SHA256: 97399c370fb552fcfab7281f62ac74bd0d147ba0fb7e6dfe51fc81fbae0615ad
+SHA512: 8448aef899150480072d97efe2936336df8eb765c7cadc9c319b09785e26f602802f06dea1126fa8fb5f1f0770b28b761dde62fe889ac5c2ad53da233fd6eb38
+Architecture: iphoneos-arm
+Description: Various enhancements to Safari!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.safariplus
+Author: opa334
+Section: Tweaks
+Maintainer: Neutronfile
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, com.creaturesurvive.libcscolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+
+Package: org.neutronfile.slices
+Name: Slices iOS10
+Version: 0.2.7-2
+Filename: ./debfiles/org.neutronfile.slices_0.2.7-2_iphoneos-arm.deb
+Size: 238844
+MD5sum: 988e78f7eca042f759250e00ceacc7b0
+SHA1: 25d43977f8b83552a267f64f3a16d4f6695aeeb3
+SHA256: 9907615b3e9d5e6c5421e1ee2609cf025e76159c07b62654c198e3791117ce17
+SHA512: dadeab7005ed3b1441f195fd002d31863065169dd654174be77c88d27c6c8c141663adb484d97ac4a76dd25ab49c2b31443fef7b3700b53e5406af1c13f98f69
+Architecture: iphoneos-arm
+Description: multiple setting & data bundles for apps
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.slices
+Author: Stevie Hetelekides
+Section: Tweaks
+Maintainer: Neutronfile
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.0)
+Icon: file:///Library/PreferenceBundles/SlicesPreferences.bundle/SlicesPreferences@2x.png
+
+Package: org.neutronfile.vivavideovip
+Name: VivaVideo VIP
+Version: 7.0.2
+Filename: ./debfiles/org.neutronfile.vivavideovip_7.0.2_iphoneos-arm.deb
+Size: 83962
+MD5sum: 395a068aa6bcccfce1508f99a93ee49c
+SHA1: a4a31d161c78725f44ddf4b69dd2cd393a8c6c65
+SHA256: 6affbe0eb9dd7d4751838d7bd9a170320bc5050815f142079addf2a2c72b5727
+SHA512: 29466a6ecde86ea199b9df1b87a74cd79785592155fba22e1a55800b8172657c7621c9fd0f750d249a475cf23d502dbfc3ace9d16cb76b4d48956d1fcfef41c9
+Architecture: iphoneos-arm
+Description: VivaVideo VIP for Free!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.vivavideovip
+Author: pxcex
+Section: Apps
+Maintainer: Neutronfile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.ytpp
+Name: YouTube ++
+Version: 1.4r-96
+Filename: ./debfiles/org.neutronfile.ytpp_1.4r-96_iphoneos-arm.deb
+Size: 6803792
+MD5sum: 4e18fbe82a38faf5b058909bf5145db8
+SHA1: a63bb63c51c9c2cb71d1135f34e29daeb7f7c686
+SHA256: 8640e7fcd99b3dc95146b2337df454714dec7d4975d20ba8bd67ae76767e74f2
+SHA512: 1c95917efe02013d509cddfcc101a0fd2689bc4a439596d94037f12f116f002e7bd28627461f303f86b06bbca6838a22fc81d1be7ac90172e548138817d6cd8d
+Architecture: iphoneos-arm
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.ytpp
+Author: UnlimApps Inc
+Section: Multimedia
+Maintainer: Neutronfile
+Depends: mobilesubstrate, firmware (>= 7.0), com.yourepo.mohadu31.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.yourepo.mohadu31.nostash
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+
+Package: org.neutronfile.safaridownloader
+Name: Safari Downloader+
+Version: 4.2.4ka
+Filename: ./debfiles/org.neutronfile.safaridownloader_4.2.4ka_iphoneos-arm.deb
+Size: 13373682
+MD5sum: e152fd8d382b82c061dd7e1e5aa430db
+SHA1: 40e5d150b5262636b3c9f68e1466edddeeded55d
+SHA256: 9bed36dbbdc83d6670fb904e7d4708669c773270862513a6ec64809871ef52af
+SHA512: 43f6744eabd1b1c29548f85e850e81ab2b28a4b35d061af7b1b8deb0c10796038b6ca4b875bc16addabe70e9a2e15d9ce68f08a1b75bea245976df87b7544466
+Architecture: iphoneos-arm
+Description: Videos & Files Download Manager for iOS.
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.safaridownloader
+Author: Jalal Ouraigua
+Section: Tweaks
+Maintainer: Neutronfile
+Depends: mobilesubstrate, preferenceloader, applist, com.ouraigua.jodebox (>= 3.0.0)
+Conflicts: net.howett.safaridownloader, com.ouraigua.safaridownloader
+Icon: file:///Library/PreferenceBundles/SafariDownloaderSwitch.bundle/icon@2x.png
+
+Package: org.neutronfile.ipapatcher
+Name: IPAPatcher
+Version: 1.0.4
+Filename: ./debfiles/org.neutronfile.ipapatcher_1.0.4_iphoneos-arm.deb
+Size: 1630
+MD5sum: cf74a98b6c989d45f96bcfd21a8bc0f7
+SHA1: e3b6fff3d7f8a9ff2211c787f2bf00590a0b04b2
+SHA256: 6efc139bce9a90c9a2ac86f028d3f8f371119c332ab3a6c2e29eb3bc6b78fd32
+SHA512: a2c7fccfbf03947763dbf3977ab7f57ef0f866849dfcc767bdc70960659389ac44799d020c3a61bd95370c8985290870688b396c343f6ba26a2f081a8817ca72
+Architecture: iphoneos-arm
+Description: Sign IPA files with entitlements to fix some apps crashing on start on iOS 11 - 12.
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.ipapatcher
+Author: level3tjg
+Section: Utilities
+Maintainer: Neutronfile
+Pre-Depends: firmware(>=10.0), zip, unzip, ldid, sed
+
+Package: org.neutronfile.pubghackno
+Name: PUBG Hack No Blocking
+Version: 10.5~1
+Filename: ./debfiles/org.neutronfile.pubghackno_10.5~1_iphoneos-arm.deb
+Size: 938428
+MD5sum: 28798ee5aeb45945aecc4ae45547d292
+SHA1: 20e966612f046039bc569dc70abc9a15aca89978
+SHA256: 0b8bffcb763a48df776093af890ec517b9857e9ebfb8da5f75e184821988124b
+SHA512: 648cd9e134e2bc7c7dd1457bcfed9bbb3508ac2cd4ec15d32d9bb7cb5ab7bdb0b0ea6d1af2523b35401b1d36389a5c55030b7c95ad01ed0dc9d8419ec7c043eb
+Architecture: iphoneos-arm
+Description: pubghack
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.pubghackno
+Author: KIIIMO $)”
+Section: Games
+Maintainer: Neutronfile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.poolhax
+Name: 8 Ball Pool (All Versions) Unlimited Guidelines + No Ban/JB Detection
+Version: 3.8.5
+Filename: ./debfiles/org.neutronfile.poolhax_3.8.5_iphoneos-arm.deb
+Size: 9564
+MD5sum: ab175bb6887c4b9b880b47ba35bc32f4
+SHA1: 88575636b1785051834cfb4ca88d6ffddb3b8889
+SHA256: 3bbee4cba411a292082e6075dcb0aa88e5f61dbcab9f811e09937fbfd681fef9
+SHA512: a0efe0f8b22c861bba99454cc1a229e65a8442ae3a341246f1b951c62ae8590c9b44302cc7419490b0b499e8b3a5d3b12437a3dd4a130c8de73133d8b6d7b84e
+Architecture: iphoneos-arm
+Description: خط توجيه لا نهائي وحماية من الحجب
+Depiction: http://apt.neutronfile.org/descreption.html?id=org.neutronfile.poolhax
+Author: Mohadu313
+Section: Games
+Maintainer: Neutronfile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.localiapstore
+Name: LocalIAPStore iOS 10 معربة
+Version: 1.5-1.1
+Filename: ./debfiles/org.neutronfile.localiapstore_1.5-1.1_iphoneos-arm.deb
+Size: 71146
+MD5sum: bc14e9c3b0e27dfd20fee0408c93b8d4
+SHA1: 5b1132582bfa307a288395bb706a80161a18c99d
+SHA256: 62b51476c6df2f0f6ad326785c683cda38d282dc4b006678f305b89aff724f45
+SHA512: d215f6c02879a46b379daf673735bbd322a4272652c9cdcdd75843522f4a11cc17600eaa43dbec42498a04826cc50e5f5699883d7875e9b96f5d3391d7223ce9
+Architecture: iphoneos-arm
+Description: تهكير الشراء من البرامج واللعاب وليس جميعها تدعم 10.2
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.localiapstore
+Author: تعريب الأخ محمد نذير
+Section: Utilities
+Maintainer: NeutronFile
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+
+Package: org.neutronfile.muslimpro
+Name: MuslimPro
+Version: 1.0.0-3
+Filename: ./debfiles/org.neutronfile.muslimpro_1.0.0-3_iphoneos-arm.deb
+Size: 7710
+MD5sum: b7b09abce27af8df19c5223b71e44345
+SHA1: 7e8837030b2ff1a9188a424060175ce053f058a1
+SHA256: ffefa0c9811102719c3e1da8336d56b96d5518700e8cea16982d7fdc213bc7da
+SHA512: 7557ca0ca776a8c3f49a0ace5c39f4086d4a4398314b76c61fe7eb05b157e1c9a33dc77e8d8e790ae486952ba905adfbc8a0db43a5476f087c7691102a1bfc5a
+Architecture: iphoneos-arm
+Description: Premium Version by DzMohaipa
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.muslimpro
+Author: DzMohaipa
+Section: Islamic
+Maintainer: Neutronfile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Version: 7.8.0
+Filename: ./debfiles/org.neutronfile.icleanerpro_7.8.0_iphoneos-arm.deb
+Size: 7690722
+MD5sum: c0764b2894c7ef3c996edc252547e37c
+SHA1: 318edf45deabc2dcb4d4bd955d5695c266346581
+SHA256: 1a0d1a4f3d6fe23fb030850edda3236ef599d331c2519784b2753127e3c6789d
+SHA512: 014df56f0f9f104677d5422b0cb70216164a7d4c0f0eda31ca0e29ef80327e79ebd291deccf83c07b1a54103e9f299724af6c4070f7ed180dedc55e81b4e84d5
+Architecture: iphoneos-arm
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: org.neutronfile.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Version: 7.7.6
+Filename: ./debfiles/org.neutronfile.icleanerpro_7.7.6_iphoneos-arm.deb
+Size: 9921716
+MD5sum: 70c78a06abd5f3f578306f01ea07a66b
+SHA1: d2ec843db9209957087446b8895f193c5777c853
+SHA256: e47047b6c551063c7f8e301f0fbb8a9fc2d8994fa43bf78d43aefd64de5f2f30
+SHA512: 74aa71c255739974f4454fc912d1f0ee1dedfc20d18d8e2cb67f93a67b7eddd761b32304339213b123c63c65f55e202a9968f8eb4ee4b340dd9dce627ffea737
+Architecture: iphoneos-arm
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: org.neutronfile.mterminal
+Name: MTerminal
+Version: 1.4-5
+Filename: ./debfiles/org.neutronfile.mterminal_1.4-5_iphoneos-arm.deb
+Size: 129056
+MD5sum: 2a7c1c6794da9f135f8216c9090ac199
+SHA1: b009a7bf41bc1df186bc9d65c88e0e62810489fc
+SHA256: 6ab655158e8530ed12f953b68876990e3ddc3bdc9d5bfd338ea50ac48484e0ac
+SHA512: 29a23c44a6d00f38d0e1a203e1fdbde1750856e0e01414c96a540f5fb389477c14e9a02466ef688606c1d405834d5176c540964a7a28b850d864b74d468f4f88
+Architecture: iphoneos-arm
+Description: A stripped-down, lightweight MobileTerminal fock with tap zones (see below)
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.mterminal
+Author: lordscotland
+Section: Utilities
+Maintainer: NeutronFile
+Depends: firmware (>= 4.0), system-cmds
+
+Package: org.neutronfile.inapp
+Name: InApp Purchases iOS 10.x
+Version: 1.0~beta1a
+Filename: ./debfiles/org.neutronfile.inapp_1.0~beta1a_iphoneos-arm.deb
+Size: 4112
+MD5sum: 540b3991945870e52a59812f0ca1802e
+SHA1: 428d28f3376fac0eaad8acccf5d9ce6cb2155ff6
+SHA256: f2eb0a9d1d38d5a502f1152401cc918ec7eb77d1b902e0303190d1262be7ae64
+SHA512: 299665224382fff8acc5046dcdb012342310cb48e481b76f762e79f1a831e25c85fc41a9b7dcbbb3d7f1364f84754346ad87f53cb1ae978e30744106872399ad
+Architecture: iphoneos-arm
+Description: iOS 10x 64bit and 32 bit Pwns In-App purchases on iOS 11 X * iOS 10xCompatible with ARMv8( free games and Applications ).Enable in settings.PRESS "DISMISS 'ON POPUP!
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.inapp
+Author: InApp
+Section: Utilities
+Maintainer: NeutronFile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.extender-installer
+Name: Extender: Reloaded
+Version: 0.4-EOL
+Filename: ./debfiles/org.neutronfile.extender-installer_0.4-EOL_iphoneos-arm.deb
+Size: 1286
+MD5sum: 04b4f2204ae4b3c04386da56a3af389f
+SHA1: b8b3219cd5dc0ba47684b617c52222f7b31ce7e4
+SHA256: 4ed2de4a958c527ba644e58423ec68f094e19d59b81cdf16bc7992afa80333dd
+SHA512: c7f384fa41ebb00c12e6129e0229949bf5c20c243d617e23e4a91bf28c9494a07d40f203117c511f420f922ec176ff1b321235e7de9a644c6f62ec4a308cd8de
+Description: Deprecated: use ReProvision
+Section: Utilities
+Depends: org.neutronfile.reprovision
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.extender-installer
+
+Package: org.neutronfile.filza
+Name: Filza File Manager (32bits)
+Version: 3.6.1-1
+Filename: ./debfiles/org.neutronfile.filza_3.6.1-1_iphoneos-arm.deb
+Size: 12461384
+MD5sum: 6ff313884aa785e3565481b2bceec203
+SHA1: fbee32ec3befb99a863a34261c131be7d5161550
+SHA256: e580fe4f826496958e09f8102e55a5a2eb0887c7f939ae786ae759e23f52755f
+SHA512: 18b05cb0cd28f1f7b994b3cb5e527e9a71e82acc41340ad9cd38efe9374b9a97e221a6679b3d1856eceb8cd3ab68c137f46e1bcb9abea42e6eef4f3800d5f540
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.filza
+Author: TIGI Software
+Section: Tweaks
+Maintainer: Neutronfile
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+
+Package: org.neutronfile.filza64bit
+Name: Filza File Manager Cracked
+Version: 3.7.0-18-1
+Filename: ./debfiles/org.neutronfile.filza64bit_3.7.0-18-1_iphoneos-arm.deb
+Size: 16305292
+MD5sum: 31c82fef04f8b366905486d382f75814
+SHA1: 551a65c06b7eae314057ddba3671156a40764ef5
+SHA256: a81471c3105f78647480b312c6dfce1b0887fa8228e3ab4d7518bab07d449a15
+SHA512: c467ef4aab3ff5ed6cf3e73c42962b323d2871a0685d4171c955e37f7caa1ce53efdc01075627fe60a8ff659e1226a185c1a8bae1afd73258bc52b1014bd51f9
+Architecture: iphoneos-arm
+Description: Files Manager.
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.filza64bit
+Author: TIGI Software
+Section: Tweaks
+Maintainer: NeutronFile
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+
+Package: org.neutronfile.appsyncunified
+Name: AppSync Unified
+Version: 6.0.2
+Filename: ./debfiles/org.neutronfile.appsyncunified_6.0.2_iphoneos-arm.deb
+Size: 35846
+MD5sum: 1660002693b70de7d476d0d5f02688f5
+SHA1: 18a5ab39cf01a826aaff50fe345fae7fdcb9d94a
+SHA256: 0eba1a43dfda3f226b253a472c804662ce6956614ecfc9ca3e05c136c7cf5399
+SHA512: 1a20d8c7f3b7657c4e5ba0cf92445eab88a8bad74940e2244c9364776683309b7dc8bd6b97b98ebd5edac1a6ee5b64efd020bf1449e1e6acc938390141ccb67c
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.appsyncunified
+Author: Linus Yang, Karen／明美
+Section: Addons
+Maintainer: Neutronfile
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 11.0)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.repo.xarold.com.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+
+Package: org.neutronfile.athanversionpro
+Name: Athan version pro
+Version: 3.6.3
+Filename: ./debfiles/org.neutronfile.athanversionpro_3.6.3_iphoneos-arm.deb
+Size: 14356642
+MD5sum: cc3f50453c0d881cb1e219557257c580
+SHA1: fb6bbc76b764827dc1dfc6fe8d81d4e2a7d10953
+SHA256: b3f30ebc87b1c3dad635b92edb26c385d20dcbf869e0bb69394893e0c35a2f92
+SHA512: 470047a1949a615eae8c309c26ebc7a18addabf5eaa21e82c4dd5e31899f0caaae242e4e7e333ad127a3ca11a0a4f2e8847142af2b81973f01cef5095c264422
+Architecture: iphoneos-arm
+Description: Athan pro version acheter
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.athanversionpro
+Author: mohadu31
+Section: Apps
+Maintainer: NeutronFile
+Depends: mobilesubstrate
+
+Package: org.neutronfile.clutch2
+Name: Clutch2 
+Version: 1.1
+Filename: ./debfiles/org.neutronfile.clutch2_1.1_iphoneos-arm.deb
+Size: 457614
+MD5sum: 3d559ca8688fa667ec22aa449bacafde
+SHA1: 97298d4c4bec60322fba1f1e4c1b394ed78fc973
+SHA256: 86a8b55cf4a91fcc0effacaff0a3d0fe731d2b564b9c6605283f078769943738
+SHA512: ec8c5cce19cc27c0f8adb8fa342703afe0c1a10beb8a3ff03b4b17f3e0ba970ac6f39d1c8e1ca314e0f193be55d1be74ff0078d602be7352ae1a84b09a5836bb
+Architecture: iphoneos-arm
+Description: Clutch2 for Dev
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.clutch2
+Author: iMokhles
+Section: Development
+Maintainer: Neutrnfile
+Depends: mobilesubstrate, firmware (>= 8.0)
+
+Package: org.neutronfile.aeternumhives
+Name: Aeternum
+Version: 1.1.0.1k
+Filename: ./debfiles/org.neutronfile.aeternumhives_1.1.0.1k_iphoneos-arm.deb
+Size: 687438
+MD5sum: 39e57c13eccd04396ef16af576319b5b
+SHA1: d1372e662fe5ca4377053eda38740bcb5b386be5
+SHA256: f39e6db6e439f91f5ba821800863d7780ecc3cb35655b548a63fd4c3c219658d
+SHA512: 75019537d6a05976ea6cf8911e4f1763c65cd96ef2a05cfc3b7c268bae628d3663522120417d174f984387ccdb74860d4f53f8f09ffe8596b461e50a3e2a2a15
+Architecture: iphoneos-arm
+Description: Apple Watch UI SpringBoard replacement with Dock, Spotlight, fully featured Icon RearrangingDeletingAppsBadgesAnimationsiWatchInterfaceSpring BoardPreferenceLoaderSettingsWinterboardThemeActivatorActionNoCrack
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.aeternumhives
+Author: SpiritOfLogic
+Section: Themes
+Maintainer: Neutronfile
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5015), preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: com.spiritoflogic.aeternum.hives
+Icon: file:///Library/PreferenceBundles/Aeternum.bundle/Icon.png
+
+Package: org.neutronfile.antrec
+Name: AntRec - HD screen recorder
+Version: 1.7.0
+Filename: ./debfiles/org.neutronfile.antrec_1.7.0_iphoneos-arm.deb
+Size: 8053760
+MD5sum: 0893952c275637b16abd3b0e4222ab29
+SHA1: 174c206ec27b089114666c15d1d1b9ece7e99f42
+SHA256: 35ae1128415fc6bc8afc58ff1a9b5d1e5407d31bb44777316ef8f5bbfd61126c
+SHA512: 46040c3df42c37b38fa9b1b46a0bf9519e40900e0ede75bae7e3f0dfcc40b88142e9bafb7751ee9413617fb819371493a066ebbe0bb44ff2526eda5fdb7b71bd
+Architecture: iphoneos-arm
+Description: Record screen display to video easily!
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.antrec
+Author: Evan Hurst
+Section: Utilities
+Maintainer: NeutronFile
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.1), libactivator (>= 1.8.3)
+Icon: file:///Applications/AntRec.app/AppIcon57x57.png
+
+Package: org.neutronfile.appdatamanager
+Name: Apps Manager
+Version: 1.5.0-12
+Filename: ./debfiles/org.neutronfile.appdatamanager_1.5.0-12_iphoneos-arm.deb
+Size: 3645728
+MD5sum: a19c9f7f78fdae84c6cfbf15dbb81e3e
+SHA1: bcfcb134cfbdfb8aaba3ce96a57d7f368282bcd6
+SHA256: a800e73fd33c923dbd365827d565633e84afb0d197b1d3a528498a1c5154a0ed
+SHA512: d01d0b376c84f8c548a9edcb9926310066fdb514a91ec4966a9c796e321f703d2fb8a0c007ac770b16643c1ed0f219b63543d031e8a30a621c80bf0c25aca334
+Architecture: iphoneos-arm
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.appdatamanager
+Author: TIGI Software
+Section: Tweaks
+Maintainer: Neutronfile
+
+Package: org.neutronfile.activatorpp
+Name: Activator++
+Version: 1.0.0.3
+Filename: ./debfiles/org.neutronfile.activatorpp_1.0.0.3_iphoneos-arm.deb
+Size: 5730
+MD5sum: 78bd7c3f5e35a23d031ae10531bd1494
+SHA1: 686040ba672d54183caeed8a3489424dfdd9c022
+SHA256: ea3419846418b3dbc9bf63b3f48b8a293f374141fd8591dbd88513f9e7ba613f
+SHA512: b17991ddb882231afff19ab0c38f1e946d5e126b4727d1e6cc47937c79c852d5cf149b32d001240c40e4f34d7d100dab75d6039f0dc8276a474fb9e47e8cfc09
+Architecture: iphoneos-arm
+Description: No Ads On Activator From Cydia
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.activatorpp
+Author: SarahH12099
+Section: Tweaks
+Maintainer: Neutronfile
+Depends: mobilesubstrate, firmware (>= 10.0), firmware (<= 11.4.1)
+
+Package: org.neutronfile.Mlite
+Name: Messanger Lite
+Version: 147.0
+Filename: ./debfiles/org.neutronfile.Mlite_147.0_iphoneos-arm.deb
+Size: 14836574
+MD5sum: c026e5c2ba5f2ffca0e547a148a18868
+SHA1: 49ea2355b96d8e8e09afcb294565a36970f09c47
+SHA256: 374c537cf3af028ed110d230c110d248878458c03374a50b8f595d0aa5cb119e
+SHA512: 04d789ad5099e8ce3b70e6a409f72f249b19197c3455f741502ade52d2d2eafe5e404bb02e1cd1f6d5fc07fae55b0604b07323f84b84c4dec52ec6432ef5fb5b
+Description: messanger lite for facebook lite comatible with ios 9+
+Section: Apps
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: elhizazi <elhizazi1@gnail.com>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.Mlite
+Icon: file:///Applications/LightSpeedApp.app/AppIcon60x60@2x.png
+
+Package: org.neutronfile.Appinstaller
+Name: App Installer
+Version: 1.0
+Filename: ./debfiles/org.neutronfile.Appinstaller_1.0_iphoneos-arm.deb
+Size: 1176644
+MD5sum: 8fcbfdc16e78a61eda77008aeed26a2b
+SHA1: 60d35dbf0d97f5040ed180c37cf9b009e7699807
+SHA256: 4634ee2ca5de1e1595c523c0264f90bde4336df91d2e8806a71024d504057998
+SHA512: 2cbae934fa6816c3e071ad1739fee25bcc7072b96bf28a2d32508bed0aa9aed694c2bcbeb6e46a727c26f40b53ec36e4661ed6a11f317874f8bfd037420d9086
+Description: تثبيت تطبيقات ايفون مباشرة من رابط التحميل 
+Section: Apps
+Depends: mobilesubstrate 
+Architecture: iphoneos-arm
+Author: elhizaz <elhizazi1@gmail.com>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.Appinstaller
+Icon: file:///Applications/App Installer.app/AppIcon60x60@2x.png
+
+Package: org.neutronfile.Fblite
+Name: Facebook Lite
+Version: 181.0
+Filename: ./debfiles/org.neutronfile.Fblite_181.0_iphoneos-arm.deb
+Size: 4754538
+MD5sum: 9a1eee3bdaa70f9036176f0f922390ac
+SHA1: 309e2940c4c17b127f945af0351d9f2b815e5239
+SHA256: 5af4339f941936379b2bc98e64c611ba39a15820a5b3bfc8817911b88d407f81
+SHA512: e9a6cf258a64a92ea228ea9a3b4c01fe5ea79cfccd45d71a47bde46ea2631373c75ccbae90e50a5ffd057e09f379a8f0ea295e243de24ec40baa777e076e0b6a
+Description: facebook lite computable ios 9+
+Section: Apps
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: elhizazi <elhizazi1@gmail.com>
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Homepage: https://www.neutronfile.org/
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.Fblite
+Icon: file:///Applications/Highlight.app/AppIcon60x60@2x.png

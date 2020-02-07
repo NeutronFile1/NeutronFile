@@ -1,0 +1,7 @@
+{   "name": "deb Repack",
+	"desc_short": "bash command to repack deb file Easy Repack deb files. type debextract/debmount on terminal to unmount/mount deb file on /var/mobile/deb/.",
+	"compatitle": "ios < 7.0",
+	"changelog": "<strong>1.0-1a</strong>",
+	"screenshot": "null",
+	"open": true,
+	}

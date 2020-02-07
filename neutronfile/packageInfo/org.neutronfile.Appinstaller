@@ -1,0 +1,7 @@
+{   "name": "App Install",
+	"desc_short": "تثبيت تطبيقات ايفون برابط مباشر",
+	"compatitle": "iOS 10.3+",
+	"changelog": "<strong>1.0~stabel</strong>",
+	"screenshot": "<div style='text-align:center;'><a href='https://i.imgur.com/ygQ1EPF.png' target='_blank'></a><br></div>",
+	"open": true,
+	}

@@ -1,0 +1,14 @@
+Origin: NeutronFile
+Label: NeutronFile
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: NeutronFile Source Repo 
+Email: neutronfile19@gmail.com
+Twitter: https://twitter.com/NeutronFile
+Donat: https://www.paypal.com/donate/?token=V1sh9CB2-bxrfH8zm1WLpZL8Hl8CCPuKEVQSu4VxJ7iVqj-N6vNzU3u-FbZtPEcL2XHrr0&country.x=MA&locale.x=
+MD5Sum:
+ 05254acf19a5dd85ad48b682e7612b2d 55311 Packages
+ 9781b8e93114f4e7915498298332a5e1 15806 Packages.bz2
