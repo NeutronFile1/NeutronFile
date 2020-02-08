@@ -36,6 +36,26 @@ Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.onlin
 Icon: file:///Library/PreferenceBundles/OnlineNotifyPrefs.bundle/logo@2x.png
 
 Package: org.neutronfile.watusi2forwhatsapp
+Version: 1.2.32E
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.neutronfile.watusitools, com.rpetrich.rocketbootstrap, applist
+Conflicts: com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
+Architecture: iphoneos-arm
+Name: Watusi 2 for WhatsApp
+Filename: ./debfiles/org.neutronfile.watusi2forwhatsapp_1.2.32E_iphoneos-arm.deb
+Size: 4795102  
+MD5sum: ee9156d140b56eba9c2204aa356592cc
+SHA1: 67383ed5d4a95f678d247addce4a7975d8f2bb4d
+SHA256: a705795c6ee8927b336a90a6d935c9722823a3d3a424d3d645019c050a447795
+SHA512: 20341da0e79ff2df4b8617d04323ef6db5201f5e78c13d1f406dec7893f8fe1c1faba58a95f79bbba22c7d89c1ee6e0570528543e65c689286ed3f6e3ac00875
+Author: Fouad Raheb <support@fouadraheb.com>
+Sponsor: NeutronFile.org <http://apt.neutronfile.com>
+Homepage: https://www.neutronfile.org/
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.watusi2forwhatsapp
+Icon: file:///Library/Application Support/Watusi/FRAssets.bundle/Watusi@3x.png
+
+Package: org.neutronfile.watusi2forwhatsapp
 Version: 1.2.31E
 Section: Tweaks
 Maintainer: NeutronFile <neutronfile19@gmail.com>
